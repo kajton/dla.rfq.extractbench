@@ -1,0 +1,16 @@
+{
+  "solicitation_number": "SPE7L1-26-T-2208",
+  "nsn": "5340-01-987-6543",
+  "cage_code": "7XY89",
+  "part_number": "BRK-88",
+  "quantity": 12,
+  "unit_of_issue": "BX",
+  "delivery_days_aro": 60,
+  "mil_std_packaging": "MIL-STD-2073-1E",
+  "compliance_flags": [
+    "Berry Amendment",
+    "First Article Testing",
+    "ITAR"
+  ],
+  "confidence_notes": "Packaging code is split across lines; clause text is multi-line."
+}

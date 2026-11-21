@@ -1,0 +1,14 @@
+{
+  "solicitation_number": "SPE4A6-26-T-1042",
+  "nsn": "1560-00-123-4567",
+  "cage_code": "1A2B3",
+  "part_number": "PN-4402",
+  "quantity": 24,
+  "unit_of_issue": "EA",
+  "delivery_days_aro": 45,
+  "mil_std_packaging": "MIL-STD-2073-1E",
+  "compliance_flags": [
+    "DFARS"
+  ],
+  "confidence_notes": ""
+}

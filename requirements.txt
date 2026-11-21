@@ -1,0 +1,6 @@
+pymupdf
+pdfplumber
+pydantic
+google-genai
+rich
+python-dotenv

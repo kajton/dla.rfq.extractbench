@@ -1,0 +1,16 @@
+# RFQ extraction benchmark
+
+- Mode: `regex-only`
+- Scoring: Exact field accuracy
+- PDFs evaluated: 3
+- Ground truth available: yes
+
+| PDF | Method | Exact accuracy | Fields | Flags caught | Latency | Failure modes |
+| --- | --- | --- | --- | --- | --- | --- |
+| clean_digital.pdf | regex-only | 100% | 9/9 | 1/1 | 0.05s | none |
+| noisy_layout.pdf | regex-only | 100% | 10/10 | 2/2 | 0.05s | ambiguous or misaligned table |
+| packaging_clauses.pdf | regex-only | 100% | 11/11 | 3/3 | 0.03s | none |
+
+## Failure-mode notes
+
+Scanned pages and irregular table layouts are flagged when the PDF diagnostics detect them. No warning does not guarantee that every table was interpreted correctly.

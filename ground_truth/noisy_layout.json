@@ -1,0 +1,15 @@
+{
+  "solicitation_number": "SPE4A6-26-T-7315",
+  "nsn": "5998-01-234-9876",
+  "cage_code": "4QWER",
+  "part_number": "PCB-100A",
+  "quantity": 8,
+  "unit_of_issue": "KT",
+  "delivery_days_aro": 30,
+  "mil_std_packaging": "MIL-STD-2073-1E",
+  "compliance_flags": [
+    "Buy American Act",
+    "QPL"
+  ],
+  "confidence_notes": "Simulated broken-layout, multi-column line-item table."
+}
