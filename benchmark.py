@@ -322,6 +322,11 @@ def main(argv: list[str] | None = None) -> int:
             "[yellow]No ground truth found; populated-field counts are shown, "
             "not accuracy. Add reference JSON files to score extraction quality.[/yellow]"
         )
+    if any(result.error for result in results):
+        console.print(
+            "[red]One or more extraction runs failed; see the failure modes and report above.[/red]"
+        )
+        return 1
     return 0
 
 

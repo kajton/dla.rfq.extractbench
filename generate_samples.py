@@ -6,13 +6,13 @@ import argparse
 import json
 from pathlib import Path
 
-import fitz
+import pymupdf
 
 from schema import RFQExtraction
 
 
 def _write_pdf(path: Path, pages: list[list[tuple[str, tuple[float, float], int]]]) -> None:
-    document = fitz.open()
+    document = pymupdf.open()
     for blocks in pages:
         page = document.new_page(width=612, height=792)
         for text, position, size in blocks:
