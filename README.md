@@ -1,4 +1,6 @@
 # dla-rfq-parser
+<img width="1068" height="119" alt="Zrzut ekranu 2026-11-21 230754" src="https://github.com/user-attachments/assets/7675acab-ee3f-4384-8c7b-7442ff5cbb38" />
+
 
 A Python CLI and benchmark for extracting procurement fields from DLA and
 SAM.gov RFQ PDFs. The repository includes synthetic sample PDFs and matching
